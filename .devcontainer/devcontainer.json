@@ -14,3 +14,4 @@
   },
   "postCreateCommand": "mvn -q -DskipTests package || true"
 }
+
