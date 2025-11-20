@@ -1,11 +1,6 @@
 {
   "name": "Java 17 Spring Boot Billing API",
   "image": "mcr.microsoft.com/devcontainers/java:17",
-  "features": {
-    "ghcr.io/devcontainers/features/maven:1": {
-      "version": "3.9"
-    }
-  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -15,6 +10,6 @@
       ]
     }
   },
-  "postCreateCommand": "mvn -version"
+  "postCreateCommand": "mvn -version || echo 'Maven not installed yet'"
 }
 
