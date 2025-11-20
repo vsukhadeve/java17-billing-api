@@ -9,7 +9,6 @@
         "redhat.vscode-yaml"
       ]
     }
-  },
-  "postCreateCommand": "mvn -version || echo 'Maven not installed yet'"
+  }
 }
 
